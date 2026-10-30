@@ -1,0 +1,14 @@
+{
+  "name": "kpc-rfid-api",
+  "version": "1.0.0",
+  "description": "REST API that receives RFID scans from Zebra FXR90 readers at the KPC entry, exit and rejection gates",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
